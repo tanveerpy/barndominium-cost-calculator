@@ -27,7 +27,7 @@ export function ScenarioComparison({ savedScenarios, currentBreakdown, children 
             <DialogTrigger asChild>
                 {children}
             </DialogTrigger>
-            <DialogContent className="max-w-6xl w-full max-h-[85vh] flex flex-col">
+            <DialogContent className="max-w-6xl w-full max-h-[85vh] flex flex-col overflow-hidden">
                 <DialogHeader>
                     <DialogTitle>Compare Estimates</DialogTitle>
                     <DialogDescription>
