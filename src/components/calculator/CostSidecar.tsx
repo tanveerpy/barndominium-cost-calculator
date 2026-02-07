@@ -54,7 +54,11 @@ export function CostSidecar({ breakdown, inputs, onSave, savedCount = 0, savedSc
                 {/* Action Buttons */}
                 <div className="grid grid-cols-2 gap-2 mt-4">
                     <button
-                        onClick={onSave}
+                        onClick={() => {
+                            console.log("Save Comparison clicked");
+                            generateQuotePDF(inputs, breakdown);
+                            if (onSave) onSave();
+                        }}
                         className="bg-secondary text-secondary-foreground hover:bg-secondary/80 h-9 px-4 py-2 rounded-md text-sm font-medium transition-colors border border-input shadow-sm"
                     >
                         Save Comparison

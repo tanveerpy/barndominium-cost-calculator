@@ -27,7 +27,7 @@ export function ScenarioComparison({ savedScenarios, currentBreakdown, children 
             <DialogTrigger asChild>
                 {children}
             </DialogTrigger>
-            <DialogContent className="max-w-6xl w-full max-h-[85vh] flex flex-col overflow-hidden">
+            <DialogContent className="max-w-6xl w-full max-h-[85vh] flex flex-col p-6">
                 <DialogHeader>
                     <DialogTitle>Compare Estimates</DialogTitle>
                     <DialogDescription>
@@ -35,7 +35,7 @@ export function ScenarioComparison({ savedScenarios, currentBreakdown, children 
                     </DialogDescription>
                 </DialogHeader>
 
-                <div className="mt-4 flex-1 overflow-auto border rounded-md">
+                <div className="mt-4 flex-1 overflow-auto border rounded-md relative" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
                     <Table>
                         <TableHeader className="sticky top-0 bg-secondary z-10">
                             <TableRow>

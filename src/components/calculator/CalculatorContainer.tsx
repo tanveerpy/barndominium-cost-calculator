@@ -1,19 +1,23 @@
 'use client';
 
+import { useState } from "react";
+import dynamic from 'next/dynamic';
 import { useCalculator } from "@/hooks/useCalculator";
 import { CostSidecar } from "./CostSidecar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Calculator, Hammer, Home, Ruler, MapPin } from "lucide-react";
-import { type CalculatorInputs, type CostBreakdown } from "@/types/calculator";
+import { Hammer, Home, Ruler, MapPin } from "lucide-react";
+import { type CalculatorInputs, type CostBreakdown, type SavedScenario } from "@/types/calculator";
 import { LandReadiness } from "@/components/wizards/LandReadiness";
 import { ContingencySlider } from "./ContingencySlider";
-import { CostBreakdownChart } from "./CostBreakdownChart";
 import { SustainabilityScore } from "./SustainabilityScore";
 import regions from "@/data/regions.json";
 import { cn } from "@/lib/utils";
-import { useState } from "react";
 import { toast } from "sonner";
-import { type SavedScenario } from "@/types/calculator";
+
+const CostBreakdownChart = dynamic(() => import('./CostBreakdownChart').then(mod => mod.CostBreakdownChart), {
+    loading: () => <div className="h-[300px] w-full animate-pulse bg-muted rounded-lg" />,
+    ssr: false
+});
 
 export function CalculatorContainer({ initialInputs }: { initialInputs?: Partial<CalculatorInputs> }) {
     const { inputs, breakdown, updateInput } = useCalculator(initialInputs);
