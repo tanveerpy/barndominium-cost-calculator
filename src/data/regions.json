@@ -1,0 +1,252 @@
+[
+    {
+        "code": "AL",
+        "name": "Alabama",
+        "multiplier": 0.93
+    },
+    {
+        "code": "AK",
+        "name": "Alaska",
+        "multiplier": 1.35
+    },
+    {
+        "code": "AZ",
+        "name": "Arizona",
+        "multiplier": 1.05
+    },
+    {
+        "code": "AR",
+        "name": "Arkansas",
+        "multiplier": 0.89
+    },
+    {
+        "code": "CA",
+        "name": "California",
+        "multiplier": 1.45
+    },
+    {
+        "code": "CO",
+        "name": "Colorado",
+        "multiplier": 1.12
+    },
+    {
+        "code": "CT",
+        "name": "Connecticut",
+        "multiplier": 1.25
+    },
+    {
+        "code": "DE",
+        "name": "Delaware",
+        "multiplier": 1.15
+    },
+    {
+        "code": "FL",
+        "name": "Florida",
+        "multiplier": 1.02
+    },
+    {
+        "code": "GA",
+        "name": "Georgia",
+        "multiplier": 0.95
+    },
+    {
+        "code": "HI",
+        "name": "Hawaii",
+        "multiplier": 1.65
+    },
+    {
+        "code": "ID",
+        "name": "Idaho",
+        "multiplier": 0.98
+    },
+    {
+        "code": "IL",
+        "name": "Illinois",
+        "multiplier": 1.10
+    },
+    {
+        "code": "IN",
+        "name": "Indiana",
+        "multiplier": 0.96
+    },
+    {
+        "code": "IA",
+        "name": "Iowa",
+        "multiplier": 0.97
+    },
+    {
+        "code": "KS",
+        "name": "Kansas",
+        "multiplier": 0.92
+    },
+    {
+        "code": "KY",
+        "name": "Kentucky",
+        "multiplier": 0.94
+    },
+    {
+        "code": "LA",
+        "name": "Louisiana",
+        "multiplier": 0.96
+    },
+    {
+        "code": "ME",
+        "name": "Maine",
+        "multiplier": 1.08
+    },
+    {
+        "code": "MD",
+        "name": "Maryland",
+        "multiplier": 1.18
+    },
+    {
+        "code": "MA",
+        "name": "Massachusetts",
+        "multiplier": 1.38
+    },
+    {
+        "code": "MI",
+        "name": "Michigan",
+        "multiplier": 1.05
+    },
+    {
+        "code": "MN",
+        "name": "Minnesota",
+        "multiplier": 1.09
+    },
+    {
+        "code": "MS",
+        "name": "Mississippi",
+        "multiplier": 0.88
+    },
+    {
+        "code": "MO",
+        "name": "Missouri",
+        "multiplier": 0.93
+    },
+    {
+        "code": "MT",
+        "name": "Montana",
+        "multiplier": 1.05
+    },
+    {
+        "code": "NE",
+        "name": "Nebraska",
+        "multiplier": 0.95
+    },
+    {
+        "code": "NV",
+        "name": "Nevada",
+        "multiplier": 1.08
+    },
+    {
+        "code": "NH",
+        "name": "New Hampshire",
+        "multiplier": 1.15
+    },
+    {
+        "code": "NJ",
+        "name": "New Jersey",
+        "multiplier": 1.32
+    },
+    {
+        "code": "NM",
+        "name": "New Mexico",
+        "multiplier": 0.98
+    },
+    {
+        "code": "NY",
+        "name": "New York",
+        "multiplier": 1.35
+    },
+    {
+        "code": "NC",
+        "name": "North Carolina",
+        "multiplier": 0.96
+    },
+    {
+        "code": "ND",
+        "name": "North Dakota",
+        "multiplier": 1.05
+    },
+    {
+        "code": "OH",
+        "name": "Ohio",
+        "multiplier": 0.97
+    },
+    {
+        "code": "OK",
+        "name": "Oklahoma",
+        "multiplier": 0.91
+    },
+    {
+        "code": "OR",
+        "name": "Oregon",
+        "multiplier": 1.25
+    },
+    {
+        "code": "PA",
+        "name": "Pennsylvania",
+        "multiplier": 1.08
+    },
+    {
+        "code": "RI",
+        "name": "Rhode Island",
+        "multiplier": 1.25
+    },
+    {
+        "code": "SC",
+        "name": "South Carolina",
+        "multiplier": 0.95
+    },
+    {
+        "code": "SD",
+        "name": "South Dakota",
+        "multiplier": 0.98
+    },
+    {
+        "code": "TN",
+        "name": "Tennessee",
+        "multiplier": 0.92
+    },
+    {
+        "code": "TX",
+        "name": "Texas",
+        "multiplier": 0.95
+    },
+    {
+        "code": "UT",
+        "name": "Utah",
+        "multiplier": 1.05
+    },
+    {
+        "code": "VT",
+        "name": "Vermont",
+        "multiplier": 1.15
+    },
+    {
+        "code": "VA",
+        "name": "Virginia",
+        "multiplier": 1.05
+    },
+    {
+        "code": "WA",
+        "name": "Washington",
+        "multiplier": 1.28
+    },
+    {
+        "code": "WV",
+        "name": "West Virginia",
+        "multiplier": 0.94
+    },
+    {
+        "code": "WI",
+        "name": "Wisconsin",
+        "multiplier": 1.04
+    },
+    {
+        "code": "WY",
+        "name": "Wyoming",
+        "multiplier": 1.02
+    }
+]

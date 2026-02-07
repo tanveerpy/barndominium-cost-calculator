@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-success: hsl(var(--success));
+  --color-success-foreground: hsl(var(--success-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  /* Modern Homestead Palette */
+
+  /* Background: Cool Gray #F8FAFC */
+  --background: 210 40% 98%;
+
+  /* Foreground: Deep Slate #0F172A */
+  --foreground: 222 47% 11%;
+
+  /* Card: White #FFFFFF */
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+
+  /* Popover: White #FFFFFF */
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+
+  /* Primary: Safe Blue #2563EB */
+  --primary: 221 83% 53%;
+  --primary-foreground: 210 40% 98%;
+
+  /* Secondary: Deep Slate #0F172A (Used for headers/emphasis) */
+  --secondary: 222 47% 11%;
+  --secondary-foreground: 210 40% 98%;
+
+  /* Muted: Slate 100 #F1F5F9 */
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215 16% 47%;
+
+  /* Accent: Warm Amber #B45309 */
+  --accent: 38 92% 37%;
+  --accent-foreground: 210 40% 98%;
+
+  /* Destructive: Red 600 #DC2626 */
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 210 40% 98%;
+
+  /* Success: Emerald #10B981 */
+  --success: 151 84% 39%;
+  --success-foreground: 210 40% 98%;
+
+  /* Border: Slate 200 #E2E8F0 */
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+
+  /* Ring: Safe Blue #2563EB */
+  --ring: 221 83% 53%;
+
+  --radius: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Dark Mode Adjustments */
+    --background: 222 47% 11%;
+    /* Deep Slate Background */
+    --foreground: 210 40% 98%;
+
+    --card: 217 33% 17%;
+    /* Darker Slate */
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217 91% 60%;
+    /* Lighter Blue for Dark Mode */
+    --primary-foreground: 222 47.4% 11.2%;
+
+    --secondary: 217 19% 27%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 19% 27%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 38 92% 50%;
+    /* Lighter Amber for Dark Mode */
+    --accent-foreground: 222 47.4% 11.2%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 210 40% 98%;
+
+    --success: 151 84% 45%;
+    --success-foreground: 222 47% 11%;
+
+    --border: 217 19% 27%;
+    --input: 217 19% 27%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

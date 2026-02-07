@@ -1,0 +1,21 @@
+{
+  "foundation": {
+    "slab": { "material": 6, "labor": 6, "description": "4-inch reinforced concrete slab" },
+    "crawlspace": { "material": 10, "labor": 12, "description": "Block foundation with wood framing" },
+    "pier": { "material": 4, "labor": 5, "description": "Concrete pillars, best for slopes" }
+  },
+  "shell": {
+    "postFrame": { "material": 12, "labor": 8, "description": "Classic wood pole barn structure" },
+    "steel": { "material": 18, "labor": 12, "description": "Engineered red iron steel frame" }
+  },
+  "interior": {
+    "basic": { "material": 25, "labor": 25, "description": "Drywall, laminate, standard fixtures" },
+    "medium": { "material": 40, "labor": 35, "description": "Hardwood, tile, quartz counters" },
+    "luxury": { "material": 70, "labor": 50, "description": "Custom cabinetry, stone, high-end appliances" }
+  },
+  "laborRates": {
+    "diy": 0,
+    "selfManaged": 0.10,
+    "pro": 1.25
+  }
+}
