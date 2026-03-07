@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://barndocalc.com'), // Replace with actual domain when live
+  metadataBase: new URL('https://turfestimators.com'),
   title: {
     default: 'Barndominium Cost Calculator | Real-Time Estimator',
     template: '%s | BarndoCalc',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://barndocalc.com',
+    url: 'https://turfestimators.com',
     title: 'Barndominium Cost Calculator | Real-Time Estimator',
     description: "Stop guessing. Get granular, location-adjusted estimates for your barndominium build. Accounts for DIY vs. Pro labor and material trends.",
     siteName: 'BarndoCalc',
